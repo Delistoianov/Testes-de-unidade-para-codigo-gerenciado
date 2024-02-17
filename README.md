@@ -119,3 +119,19 @@ O resultado do teste unitário não está conforme o esperado. O teste esperava 
     Como esperado o teste falhou após as mudanças no código.
 
 
+## Aprendizados:
+
+Os testes unitários são essenciais para garantir a qualidade e a confiabilidade do código, permitindo que nós, desenvolvedores, identifiquemos e corrijamos erros rapidamente, além de facilitar a manutenção e a evolução do software.
+
+O framework MSTest, utilizado para fazer os testes unitários, fornece uma série de atributos e assertivas para definir métodos de teste, preparar dados de teste, verificar resultados e limpar recursos após os testes.
+
+### Conceitos Aprendidos:
+
+1. Tratamento de Exceções:
+    Aprendizado sobre a importância de testar como o código lida com entradas inválidas ou situações inesperadas, como a utilização dos métodos ArgumentOutOfRangeException e ApplicationException para garantir que o código se comporte corretamente diante de erros.
+
+2. Importância dos Testes Negativos:
+    Os testes não devem verificar apenas os cenários de sucesso, mas também as condições de falha. Isso inclui testar entradas inválidas e cenários onde erros são esperados. Isso assegura a robustez e a confiabilidade do código.
+
+3. Refatoração do Código para Testes:
+    A necessidade de ajustar o código para torná-lo testável ou corrigir falhas identificadas durante os testes, a alteração da lógica de débito de uma conta bancária, demonstra a interação entre desenvolvimento e testes unitários para melhoria contínua do software.
